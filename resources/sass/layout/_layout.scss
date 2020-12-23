@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'NasuM-Regular';
+	src: url(../../fonts/NasuM-Regular.ttf);
+}
+
+body {
+	font-family: NasuM-Regular, sans-serif;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+
+main {
+	margin-top: -22px;
+	padding-top: 20px;
+	background: $gray;
+	padding-bottom: 50px;
+	min-height: 1000px;
+}
+
+article {
+	border: solid $gray;
+	background: $white;
+	width: 60%;
+}
+
+@media (min-width: 992px) {
+	.col-md-8 {
+		width: 60%;
+	}
+
+	.col-md-4 {
+		width: 37%;
+	}
+}

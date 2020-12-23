@@ -1,0 +1,48 @@
+.sidebar {
+	&-sns-section {
+		background: $white;
+	}
+
+	&-sns-h3 {
+		background: $sidebar-header-blue;
+		margin: 0px auto;
+		padding: 10px;
+	}
+
+	&-sns-links {
+		padding-left: 5px;
+		padding-top: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	&-keywords {
+		margin-top: 10px;
+		border: solid #c2cbd3;
+		background: #fff;
+
+		&-h3 {
+			background: $sidebar-header-blue;
+			margin: 0px auto;
+			padding: 10px;
+		}
+
+		&__links {
+			li {
+				list-style: none;
+				margin-left: -35px;
+				padding-top: 10px;
+
+				@include sp {
+					display: flex;
+					flex-wrap: wrap;
+				}
+
+				a {
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+}

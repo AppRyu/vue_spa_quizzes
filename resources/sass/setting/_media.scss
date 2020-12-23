@@ -1,0 +1,14 @@
+$pc: 992px;
+$sp: 480px;
+
+@mixin pc {
+	@media (max-width: ($pc)) {
+		@content;
+	}
+}
+
+@mixin sp {
+	@media (max-width: ($sp)) {
+		@content;
+	}
+}

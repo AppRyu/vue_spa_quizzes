@@ -1,0 +1,52 @@
+.quiz {
+	&-question {
+		&-h2 {
+			border-bottom: solid;
+		}
+
+		&__logo {
+			width: 10%;
+		}
+	}
+
+	&-answer__list {
+		background: #c5e4ff;
+
+		ul {
+			padding: 20px 10px;
+
+			li {
+				list-style: none;
+				margin: 10px 0px;
+			}
+		}
+	}
+
+	&-correct {
+		&-h2 {
+			border-bottom: solid;
+		}
+
+		&__logo {
+			width: 10%;
+		}
+
+		&-answer {
+			width: 10%;
+		}
+	}
+
+	&-commentary {
+		&-h2 {
+			border-bottom: solid;
+		}
+
+		&__logo {
+			width: 10%;
+		}
+
+		&__text {
+			padding: 20px 20px;
+		}
+	}
+}

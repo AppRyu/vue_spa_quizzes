@@ -1,0 +1,51 @@
+.fa-twitter {
+	color: $twitter-blue;
+}
+
+.twitter {
+	&__share {
+		border-radius: 5px;
+		border: solid 0.5px $twitter-blue;
+		padding: 3px;
+		margin-bottom: 5px;
+	}
+}
+
+.fa-facebook {
+	color: $facebook-blue;
+}
+
+.facebook {
+	&__share {
+		border-radius: 5px;
+		border: solid 0.5px $facebook-blue;
+		padding: 3px;
+		margin-bottom: 5px;
+	}
+}
+
+.fa-line {
+	color: $line-green;
+}
+
+.line {
+	&__share {
+		border-radius: 5px;
+		border: solid 0.5px $line-green;
+		padding: 3px;
+		margin-bottom: 5px;
+	}
+}
+
+.fa-google {
+	color: $google-red;
+}
+
+.google {
+	&__share {
+		border-radius: 5px;
+		border: solid 0.5px $google-red;
+		padding: 3px;
+		margin-bottom: 5px;
+	}
+}
