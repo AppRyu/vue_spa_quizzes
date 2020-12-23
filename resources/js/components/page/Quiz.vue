@@ -130,7 +130,12 @@ export default {
         this.findNextQuiz(0);
         loader.hide();
       }
+    })
+    .catch(error =>  {
+      alert('クイズの読み込みに失敗したため、初期画面に戻ります');
+      location.href = "/";
     });
+
   },
   methods: {
     goAnswer(selectAnswerNum) {
